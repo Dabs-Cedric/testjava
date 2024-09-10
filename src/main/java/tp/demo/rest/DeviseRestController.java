@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@RestController
+@RestController //Coposant Spring de type controller de WS REST
 @RequestMapping(value = "/devise", headers = "Accept=application/json")
 public class DeviseRestController {
 

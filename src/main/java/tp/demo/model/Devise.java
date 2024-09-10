@@ -52,4 +52,8 @@ public class Devise {
         this.nom = nom;
         this.change = change;
     }
+
+    public Devise() {
+        
+    }
 }
