@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping(value = "/devise", headers = "Accept=application/json")
 public class DeviseRestController {
 
-    @Autowired
+    /*@Autowired
     private ServiceDevise serviceDevise;
 
     //url de test : http://localhost:8181/demo/devise
@@ -18,4 +18,6 @@ public class DeviseRestController {
     public List<Devise> getAllDevices() {
         return serviceDevise.findAllDevises;
     }
+   
+     */
 }
